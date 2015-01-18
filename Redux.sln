@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redux", "Redux\Redux.csproj", "{FACCC074-3745-4B60-B817-002F5754E812}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redux.Tests", "Redux.Tests\Redux.Tests.csproj", "{136E8EDB-0F3E-4C7B-A10E-08BB60F1A59B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{76811838-3162-4363-808A-089D8E9B2F07}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FACCC074-3745-4B60-B817-002F5754E812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACCC074-3745-4B60-B817-002F5754E812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACCC074-3745-4B60-B817-002F5754E812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACCC074-3745-4B60-B817-002F5754E812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136E8EDB-0F3E-4C7B-A10E-08BB60F1A59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136E8EDB-0F3E-4C7B-A10E-08BB60F1A59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136E8EDB-0F3E-4C7B-A10E-08BB60F1A59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136E8EDB-0F3E-4C7B-A10E-08BB60F1A59B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
